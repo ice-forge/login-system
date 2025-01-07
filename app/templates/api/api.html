@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/api.css') }}">
+    <title>Ice Forge - Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{{ url_for('static', filename='js/api.js') }}"></script>
+</head>
+<body data-conversation-id="{{ conversation_id if conversation_id else '' }}">
+    <section>
+        <div class="form-box api">
+            <div class="form-value">
+                <form onsubmit="event.preventDefault()">
+                    <h2>Welcome!</h2>
+                    <p class="form-body">You have successfully logged in</p>
+                    <button type="button" onclick="logout()">Log out</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

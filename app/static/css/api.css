@@ -1,0 +1,29 @@
+@import url('main.css');
+
+/* Form Boxes: Width and Height */
+
+.form-box.api {
+    width: 450px;
+    height: 200px;
+}
+
+/* Form Headers: Margins */
+
+.form-box.api h2 {
+    margin-bottom: 10px;
+}
+
+/* Form Body: Color, Alignment, & Margins */
+
+.form-body {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Form Buttons: Margins */
+
+.form-box.api button[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

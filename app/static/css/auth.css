@@ -1,0 +1,48 @@
+@import url('main.css');
+
+/* Form Boxes: Width and Height */
+
+.form-box.login {
+    width: 450px;
+    height: 500px;
+}
+
+.form-box.register {
+    width: 450px;
+    height: 530px;
+}
+
+.form-box.forgot-password,
+.form-box.confirm-email {
+    width: 400px;
+    height: 375px;
+}
+
+.form-box.reset-password {
+    width: 420px;
+    height: 475px;
+}
+
+/* Form Headers: Margins */
+
+.form-box.login h2,
+.form-box.register h2 {
+    margin-bottom: 10px;
+}
+
+.form-box.forgot-password h2,
+.form-box.reset-password h2,
+.form-box.confirm-email h2 {
+    margin-bottom: 20px;
+}
+
+/* Form Buttons: Margins */
+
+.form-box.login button[type="submit"],
+.form-box.register button[type="submit"],
+.form-box.reset-password button[type="submit"],
+.form-box.forgot-password button[type="submit"],
+.form-box.confirm-email button[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
