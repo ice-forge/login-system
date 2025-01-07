@@ -26,8 +26,6 @@ A secure and lightweight login system with a modular design for easy customizati
 - JavaScript  
 - CSS  
 
-## Setup
-
 ## Getting Started
 To get started with the project, follow these steps:
 
