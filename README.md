@@ -30,19 +30,12 @@ A secure and lightweight login system with a modular design for easy customizati
 To get started with the project, follow these steps:
 
 1. Clone the repository:
+   
     ```bash
     git clone https://github.com/ice-forge/login-system.git
     ```
-2. Create a Virtual Environment:
-    ```bash
-    python -m venv venv
-    ```
-    
-3. Activate the Virtual Environment:
-    ```bash
-    venv/scripts/activate
-
-4. Install the necessary dependencies:
+3. Install the necessary dependencies:
+   
     ```bash
     pip install -r requirements.txt
     ```
